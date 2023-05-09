@@ -11,4 +11,7 @@ target 'SnapchatUIKit' do
   pod 'FirebaseFirestore'
   pod 'FirebaseCore'
   pod 'FirebaseStorage'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'ImageSlideshow', '~> 1.9.0'
+  pod 'ImageSlideshow/Alamofire'
 end

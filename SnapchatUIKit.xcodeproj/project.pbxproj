@@ -10,11 +10,18 @@
 		91D77CA4ED1AF25F442EB8D4 /* Pods_SnapchatUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A1EB2A78AD5359D4A90B43 /* Pods_SnapchatUIKit.framework */; };
 		B4344D7C29FA9DA1000E3EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4344D7B29FA9DA1000E3EF0 /* AppDelegate.swift */; };
 		B4344D7E29FA9DA1000E3EF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4344D7D29FA9DA1000E3EF0 /* SceneDelegate.swift */; };
-		B4344D8029FA9DA1000E3EF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4344D7F29FA9DA1000E3EF0 /* ViewController.swift */; };
+		B4344D8029FA9DA1000E3EF0 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4344D7F29FA9DA1000E3EF0 /* SignInVC.swift */; };
 		B4344D8329FA9DA1000E3EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4344D8129FA9DA1000E3EF0 /* Main.storyboard */; };
 		B4344D8529FA9DA3000E3EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4344D8429FA9DA3000E3EF0 /* Assets.xcassets */; };
 		B4344D8829FA9DA3000E3EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4344D8629FA9DA3000E3EF0 /* LaunchScreen.storyboard */; };
+		B4544FF229FE8E5400BA3ED2 /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4544FF129FE8E5400BA3ED2 /* SnapVC.swift */; };
+		B46562B22A02DCC300A99A62 /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46562B12A02DCC300A99A62 /* UserSingleton.swift */; };
 		B4A5296729FA9EC800C30B67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4A5296629FA9EC800C30B67 /* GoogleService-Info.plist */; };
+		B4D41C862A04790300DFA6AB /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D41C852A04790300DFA6AB /* FeedCell.swift */; };
+		B4D41C882A047FC700DFA6AB /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D41C872A047FC700DFA6AB /* Snap.swift */; };
+		B4D99D1429FE89DA007749CD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D99D1329FE89DA007749CD /* FeedVC.swift */; };
+		B4D99D1629FE89F9007749CD /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D99D1529FE89F9007749CD /* UploadVC.swift */; };
+		B4D99D1829FE8A46007749CD /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D99D1729FE8A46007749CD /* SettingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +30,19 @@
 		B4344D7829FA9DA1000E3EF0 /* SnapchatUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4344D7B29FA9DA1000E3EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4344D7D29FA9DA1000E3EF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B4344D7F29FA9DA1000E3EF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4344D7F29FA9DA1000E3EF0 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		B4344D8229FA9DA1000E3EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4344D8429FA9DA3000E3EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4344D8729FA9DA3000E3EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4344D8929FA9DA3000E3EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4544FF129FE8E5400BA3ED2 /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		B46562B12A02DCC300A99A62 /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 		B4A5296629FA9EC800C30B67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4D41C852A04790300DFA6AB /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B4D41C872A047FC700DFA6AB /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		B4D99D1329FE89DA007749CD /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		B4D99D1529FE89F9007749CD /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		B4D99D1729FE8A46007749CD /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		F5A1EB2A78AD5359D4A90B43 /* Pods_SnapchatUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,16 +79,47 @@
 		B4344D7A29FA9DA1000E3EF0 /* SnapchatUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				B4344D7B29FA9DA1000E3EF0 /* AppDelegate.swift */,
-				B4344D7D29FA9DA1000E3EF0 /* SceneDelegate.swift */,
-				B4344D7F29FA9DA1000E3EF0 /* ViewController.swift */,
+				B46562B02A02DCA600A99A62 /* Model */,
+				B4D99D1A29FE8A96007749CD /* Delegates */,
+				B4D99D1929FE8A4E007749CD /* ViewControllers */,
 				B4344D8129FA9DA1000E3EF0 /* Main.storyboard */,
 				B4344D8429FA9DA3000E3EF0 /* Assets.xcassets */,
 				B4344D8629FA9DA3000E3EF0 /* LaunchScreen.storyboard */,
 				B4344D8929FA9DA3000E3EF0 /* Info.plist */,
 				B4A5296629FA9EC800C30B67 /* GoogleService-Info.plist */,
+				B4D41C852A04790300DFA6AB /* FeedCell.swift */,
 			);
 			path = SnapchatUIKit;
+			sourceTree = "<group>";
+		};
+		B46562B02A02DCA600A99A62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B46562B12A02DCC300A99A62 /* UserSingleton.swift */,
+				B4D41C872A047FC700DFA6AB /* Snap.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4D99D1929FE8A4E007749CD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4344D7F29FA9DA1000E3EF0 /* SignInVC.swift */,
+				B4D99D1329FE89DA007749CD /* FeedVC.swift */,
+				B4D99D1529FE89F9007749CD /* UploadVC.swift */,
+				B4D99D1729FE8A46007749CD /* SettingVC.swift */,
+				B4544FF129FE8E5400BA3ED2 /* SnapVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B4D99D1A29FE8A96007749CD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B4344D7B29FA9DA1000E3EF0 /* AppDelegate.swift */,
+				B4344D7D29FA9DA1000E3EF0 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		DA9FB6253E6154A54E0E51B6 /* Frameworks */ = {
@@ -91,7 +136,6 @@
 				673FE4E66F70A2287E58A210 /* Pods-SnapchatUIKit.debug.xcconfig */,
 				1D320EC448C72C0278D3DA95 /* Pods-SnapchatUIKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,9 +255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4344D8029FA9DA1000E3EF0 /* ViewController.swift in Sources */,
+				B46562B22A02DCC300A99A62 /* UserSingleton.swift in Sources */,
+				B4D41C882A047FC700DFA6AB /* Snap.swift in Sources */,
+				B4D99D1429FE89DA007749CD /* FeedVC.swift in Sources */,
+				B4D99D1829FE8A46007749CD /* SettingVC.swift in Sources */,
+				B4344D8029FA9DA1000E3EF0 /* SignInVC.swift in Sources */,
 				B4344D7C29FA9DA1000E3EF0 /* AppDelegate.swift in Sources */,
+				B4544FF229FE8E5400BA3ED2 /* SnapVC.swift in Sources */,
+				B4D99D1629FE89F9007749CD /* UploadVC.swift in Sources */,
 				B4344D7E29FA9DA1000E3EF0 /* SceneDelegate.swift in Sources */,
+				B4D41C862A04790300DFA6AB /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
